@@ -6,19 +6,27 @@ import Button from "./Button.jsx";
 import Student from "./Student.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
+import ProfilePicture from "./ProfilePic.jsx";
+import MyComponent from "./MyComponent.jsx";
+import Counter from "./Counter.jsx";
 function App() {
-  const fruits = [{id: 1,name:"apple", calories: 90},
-                  {id: 2,name:"orange", calories: 120},
-                  {id: 3,name:"banana",calories: 200}];
+  // const fruits = [{id: 1,name:"apple", calories: 90},
+  //                 {id: 2,name:"orange", calories: 120},
+  //                 {id: 3,name:"banana",calories: 200}];
   
-  const vegetables = [{id: 4,name:"pepper", calories: 90},
-    {id: 5,name:"salat", calories: 24},
-    {id: 6,name:"onion",calories: 50}];
+  // const vegetables = [{id: 4,name:"pepper", calories: 90},
+  //   {id: 5,name:"salat", calories: 24},
+  //   {id: 6,name:"onion",calories: 50}];
+
+
+
   return(
     <>
-    {fruits.length >0 ? <List items = {fruits} category= "Fruits"></List> : null}
+    <Counter></Counter>
+    {/* <ProfilePicture></ProfilePicture> */}
+    {/* {fruits.length >0 ? <List items = {fruits} category= "Fruits"></List> : null}*/}
                                 {/* || */}
-    {vegetables.length >0 && <List items = {vegetables} category= "Vegetables"></List>}
+    {/*{vegetables.length >0 && <List items = {vegetables} category= "Vegetables"></List>} */}
     {/* <List items = {fruits} category= "Fruits"></List> */}
     {/* <List items = {vegetables} category= "Vegetables"></List> */}
 
