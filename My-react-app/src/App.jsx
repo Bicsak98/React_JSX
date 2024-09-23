@@ -22,7 +22,8 @@ function App() {
 
   return(
     <>
-    <Counter></Counter>
+    <MyComponent></MyComponent>
+    {/* <Counter></Counter> */}
     {/* <ProfilePicture></ProfilePicture> */}
     {/* {fruits.length >0 ? <List items = {fruits} category= "Fruits"></List> : null}*/}
                                 {/* || */}
