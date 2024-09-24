@@ -11,6 +11,8 @@ import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
 import ColorPicker from "./ColorPicker.jsx";
 import Car from "./Car.jsx";
+import MyComponent_Food from "./MyComponent_Food.jsx";
+import MyComponent_Car from "./MyComponent_Car.jsx";
 function App() {
   // const fruits = [{id: 1,name:"apple", calories: 90},
   //                 {id: 2,name:"orange", calories: 120},
@@ -24,7 +26,8 @@ function App() {
 
   return(
     <>
-    <Car></Car>
+    <MyComponent_Car></MyComponent_Car>
+    {/* <Car></Car> */}
     {/* <ColorPicker></ColorPicker> */}
     {/* <MyComponent></MyComponent> */}
     {/* <Counter></Counter> */}
