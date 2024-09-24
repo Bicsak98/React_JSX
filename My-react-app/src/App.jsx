@@ -9,6 +9,7 @@ import List from "./List.jsx";
 import ProfilePicture from "./ProfilePic.jsx";
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
+import ColorPicker from "./ColorPicker.jsx";
 function App() {
   // const fruits = [{id: 1,name:"apple", calories: 90},
   //                 {id: 2,name:"orange", calories: 120},
@@ -22,7 +23,8 @@ function App() {
 
   return(
     <>
-    <MyComponent></MyComponent>
+    <ColorPicker></ColorPicker>
+    {/* <MyComponent></MyComponent> */}
     {/* <Counter></Counter> */}
     {/* <ProfilePicture></ProfilePicture> */}
     {/* {fruits.length >0 ? <List items = {fruits} category= "Fruits"></List> : null}*/}
