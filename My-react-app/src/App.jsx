@@ -14,6 +14,7 @@ import Car from "./Car.jsx";
 import MyComponent_Food from "./MyComponent_Food.jsx";
 import MyComponent_Car from "./MyComponent_Car.jsx";
 import ToDoList from "./ToDoList.jsx";
+import MyComponent_UseEffect from "./MyComponent_UseEffect.jsx";
 function App() {
   // const fruits = [{id: 1,name:"apple", calories: 90},
   //                 {id: 2,name:"orange", calories: 120},
@@ -27,7 +28,8 @@ function App() {
 
   return(
     <>
-    <ToDoList></ToDoList>
+    <MyComponent_UseEffect></MyComponent_UseEffect>
+    {/* <ToDoList></ToDoList> */}
     {/* <MyComponent_Car></MyComponent_Car> */}
     {/* <Car></Car> */}
     {/* <ColorPicker></ColorPicker> */}
