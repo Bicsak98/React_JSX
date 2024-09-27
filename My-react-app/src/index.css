@@ -297,7 +297,7 @@ li{
   margin-left: 10px;
 } */
 
-body{
+/* body{
   background-image: url(assets/images.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -320,4 +320,9 @@ body{
   font-family: monospace;
   text-align: center;
   text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+} */
+
+.box{
+  border: 3px solid;
+  padding: 25px;
 }
