@@ -16,6 +16,7 @@ import MyComponent_Car from "./MyComponent_Car.jsx";
 import ToDoList from "./ToDoList.jsx";
 import MyComponent_UseEffect from "./MyComponent_UseEffect.jsx";
 import DigitalClock from "./DigitalClock.jsx";
+import ComponentA from "./ComponentA.jsx";
 function App() {
   // const fruits = [{id: 1,name:"apple", calories: 90},
   //                 {id: 2,name:"orange", calories: 120},
@@ -29,7 +30,8 @@ function App() {
 
   return(
     <>
-    <DigitalClock></DigitalClock>
+    <ComponentA></ComponentA>
+    {/* <DigitalClock></DigitalClock> */}
     {/* <MyComponent_UseEffect></MyComponent_UseEffect> */}
     {/* <ToDoList></ToDoList> */}
     {/* <MyComponent_Car></MyComponent_Car> */}
