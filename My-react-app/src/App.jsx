@@ -18,6 +18,7 @@ import MyComponent_UseEffect from "./MyComponent_UseEffect.jsx";
 import DigitalClock from "./DigitalClock.jsx";
 import ComponentA from "./ComponentA.jsx";
 import MyComponent_UseRef from "./MyComponent_useRef.jsx";
+import StopWatch from "./StopWatch.jsx";
 function App() {
   // const fruits = [{id: 1,name:"apple", calories: 90},
   //                 {id: 2,name:"orange", calories: 120},
@@ -31,7 +32,8 @@ function App() {
 
   return(
     <>
-    <MyComponent_UseRef></MyComponent_UseRef>
+    <StopWatch></StopWatch>
+    {/* <MyComponent_UseRef></MyComponent_UseRef> */}
     {/* <ComponentA></ComponentA> */}
     {/* <DigitalClock></DigitalClock> */}
     {/* <MyComponent_UseEffect></MyComponent_UseEffect> */}
